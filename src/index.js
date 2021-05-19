@@ -1,5 +1,5 @@
 import EventEmitter from 'eventemitter3';
-import { PublicKey } from '@solana/web3.js';
+import { PublicKey } from '@safecoin/web3.js';
 import bs58 from 'bs58';
 
 export default class Wallet extends EventEmitter {
